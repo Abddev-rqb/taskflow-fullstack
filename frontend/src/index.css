@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border: none;
+  border-radius: 14px;
+}
+
+.dashboard-card {
+  border: none;
+  border-radius: 14px;
+  min-height: 120px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}

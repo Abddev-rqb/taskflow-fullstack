@@ -1,0 +1,8 @@
+
+# Terraform generated/local files
+terraform/.terraform/
+terraform/.terraform/**
+terraform/terraform.tfvars
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.lock.hcl
