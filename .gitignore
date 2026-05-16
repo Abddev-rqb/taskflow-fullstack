@@ -68,3 +68,11 @@ terraform/*.tfstate.*
 terraform/.terraform/
 terraform/.terraform/**
 terraform/.terraform.lock.hcl
+
+# Local documents / accidental files
+.~lock.*
+*.odt
+docker-compose.ymlclear
+
+# Local Docker env
+backend/.env.docker
