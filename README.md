@@ -1021,36 +1021,6 @@ Production improvement would be AWS SSM or self-hosted runner.
 
 ---
 
-## Resume Bullet Points
-
-```text
-• Built a full-stack task management application using Django REST Framework and React.js with JWT authentication and role-based access control.
-• Designed REST APIs for user management, task creation, task assignment, status updates, and dashboard analytics.
-• Integrated PostgreSQL with relational models, indexing, and optimized query handling.
-• Implemented Redis and Celery for asynchronous email notifications and background task processing.
-• Developed responsive frontend screens using React.js, JavaScript ES6+, HTML5, CSS3, Bootstrap, Axios, and React Router.
-• Added API testing using Postman and automated backend testing using PyTest.
-• Containerized the application using Docker Compose with Django, React, PostgreSQL, Redis, Celery, Gunicorn, and Nginx services.
-• Provisioned AWS EC2 infrastructure using Terraform with custom VPC, subnet, route table, internet gateway, and security group.
-• Deployed the application on AWS EC2 and automated deployments using GitHub Actions CI/CD.
-```
-
----
-
-## Interview Explanation
-
-TaskFlow is a full-stack role-based task management application. The backend is built using Django REST Framework and exposes secure REST APIs. Authentication is handled using JWT, and users are divided into Admin and User roles.
-
-Admins can create and assign tasks, while regular users can only view and update the status of tasks assigned to them. Dashboard APIs provide summary analytics for both admin and user roles.
-
-The backend uses PostgreSQL for relational data storage, with indexed fields for task status, priority, due date, assigned user, and created user. Redis and Celery are used for asynchronous background processing. When a task is assigned, the API responds immediately while Celery handles the email notification in the background.
-
-The frontend is built with React.js and includes protected routes, role-based navigation, dashboards, task listing, task creation, and status updates.
-
-The entire application is containerized using Docker Compose. Nginx acts as the reverse proxy and routes traffic to React, Django APIs, Django admin, and static files. The application is deployed on AWS EC2, with infrastructure provisioned using Terraform. GitHub Actions is used for CI/CD, automatically deploying changes from the main branch to EC2.
-
----
-
 ## Author
 
 **Abdul**
